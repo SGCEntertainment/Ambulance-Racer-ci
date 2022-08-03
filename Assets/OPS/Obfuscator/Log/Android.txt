@@ -1,0 +1,966 @@
+[Info][OPS.OBF][Setup] Active Editor Platform: WindowsEditorPlatform
+[Info][OPS.OBF][Setup] Active Build Platform: DefaultBuildPlatform
+[Info][OPS.OBF][Setup] Load Project
+[Debug][OPS.OBF][Setup] Load DataContainer
+[Debug][OPS.OBF][Setup] Load Obfuscator Settings
+[Debug][OPS.OBF][Setup] Load Pipeline Components
+[Debug][OPS.OBF][Setup] Found Components (3):
+  - Analyse Unity Animation Methods ()
+  - Analyse Unity Gui Component ()
+  - Analyse MonoScript ()
+
+[Debug][OPS.OBF][Setup] Load Pipeline
+[Debug][OPS.OBF][Setup] Load Asset Cache
+[Debug][OPS.OBF][Setup] Found Extensions (8):
+  - .fbx
+  - .dae
+  - .3ds
+  - .dxf
+  - .obj
+  - .skp
+  - .anim
+  - .prefab
+
+[Info][OPS.OBF][OnPreBuild] Process component Analyse Unity Animation Methods
+[Info][OPS.OBF][OnPreBuild] Process component Analyse Unity Gui Component
+[Info][OPS.OBF][OnPreBuild] Process component Analyse MonoScript
+[Info][OPS.OBF][OnAnalyse_Assets] Process component Analyse Unity Animation Methods
+[Debug][OPS.OBF][OnAnalyse_Assets] Found methods in AnimationClip Packages/com.unity.timeline/Editor/StyleSheets/res/HumanoidDefault.anim (0):
+
+[Info][OPS.OBF][OnProcess_Assets] Process component Analyse Unity Animation Methods
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Iterate components in loaded build scene Assets/Ambulance Racer/Scenes/game.unity.
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found 12 Root GameObjects in Scene Assets/Ambulance Racer/Scenes/game.unity
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found 227 Components in Scene Assets/Ambulance Racer/Scenes/game.unity
+[Info][OPS.OBF][OnAnalyse_Component_Scenes] Process component Analyse Unity Gui Component
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in EventSystem of type UnityEngine.EventSystems.EventSystem
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in EventSystem of type UnityEngine.EventSystems.StandaloneInputModule
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in overlay of type UnityEngine.UI.CanvasScaler
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in overlay of type UnityEngine.UI.GraphicRaycaster
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in logo of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in currentCar of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in _car of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in buttons of type UnityEngine.UI.VerticalLayoutGroup
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in buttons of type UnityEngine.UI.ContentSizeFitter
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in start of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in start of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in start (1):
+  - StartGame
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in choose player of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in choose player of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in choose player (1):
+  - OpenShop
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in top scores of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in top scores of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in top scores (1):
+  - OpenLeaderboard
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in logo of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in select table of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in icon of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in prev of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in prev of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in prev (1):
+  - SetPlayer
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in next of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in next of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in next (1):
+  - SetPlayer
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in name of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in name of type UnityEngine.UI.Outline
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in max.speed of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in acceleration of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in handling of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in confirm of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in confirm of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in confirm (1):
+  - Confirm
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in back of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in back of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in back (1):
+  - Back
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in logo of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in root of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in scores of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in back of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in back of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in back (1):
+  - Back
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in pause of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in pause of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in pause (1):
+  - Pause
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in status of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in healthbar of type UnityEngine.UI.HorizontalLayoutGroup
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in healthbar of type UnityEngine.UI.ContentSizeFitter
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image (1) of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image (2) of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image (3) of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image (4) of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in _health of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in _time of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in timer of type UnityEngine.UI.Text
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in timer of type UnityEngine.UI.Outline
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in left of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in right of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in stop of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in restart of type UnityEngine.UI.Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in restart of type UnityEngine.UI.Button
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found gui event methods in restart (1):
+  - StartGame
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Find gui event methods in Image of type UnityEngine.UI.Image
+[Info][OPS.OBF][OnAnalyse_Component_Scenes] Process component Analyse MonoScript
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference com.smallgamescompany.orientation.Orientation for Orientation
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Orientation (1):
+  - com.smallgamescompany.orientation.Orientation
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference Manager for Manager
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Manager (1):
+  - Manager
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference Background for background
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for background (1):
+  - Background
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.EventSystems.EventSystem for EventSystem
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for EventSystem (1):
+  - UnityEngine.EventSystems.EventSystem
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.EventSystems.StandaloneInputModule for EventSystem
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for EventSystem (1):
+  - UnityEngine.EventSystems.StandaloneInputModule
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.CanvasScaler for overlay
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for overlay (1):
+  - UnityEngine.UI.CanvasScaler
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.GraphicRaycaster for overlay
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for overlay (1):
+  - UnityEngine.UI.GraphicRaycaster
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for logo
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for logo (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for currentCar
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for currentCar (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for _car
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for _car (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.VerticalLayoutGroup for buttons
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for buttons (1):
+  - UnityEngine.UI.VerticalLayoutGroup
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.ContentSizeFitter for buttons
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for buttons (1):
+  - UnityEngine.UI.ContentSizeFitter
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for start
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for start (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for start
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for start (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for choose player
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for choose player (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for choose player
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for choose player (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for top scores
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for top scores (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for top scores
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for top scores (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for logo
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for logo (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for select table
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for select table (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for icon
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for icon (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for prev
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for prev (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for prev
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for prev (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for next
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for next (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for next
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for next (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for name
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for name (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Outline for name
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for name (1):
+  - UnityEngine.UI.Outline
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for max.speed
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for max.speed (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for acceleration
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for acceleration (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for handling
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for handling (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for confirm
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for confirm (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for confirm
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for confirm (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for back
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for back (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for back
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for back (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for logo
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for logo (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for root
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for root (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for scores
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for scores (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for back
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for back (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for back
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for back (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for pause
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for pause (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for pause
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for pause (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for status
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for status (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.HorizontalLayoutGroup for healthbar
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for healthbar (1):
+  - UnityEngine.UI.HorizontalLayoutGroup
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.ContentSizeFitter for healthbar
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for healthbar (1):
+  - UnityEngine.UI.ContentSizeFitter
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image (1)
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (1) (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image (2)
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (2) (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image (3)
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (3) (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image (4)
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (4) (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for _health
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for _health (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for _time
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for _time (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Text for timer
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for timer (1):
+  - UnityEngine.UI.Text
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Outline for timer
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for timer (1):
+  - UnityEngine.UI.Outline
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for left
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for left (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference MyBtn for left
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for left (1):
+  - MyBtn
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for right
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for right (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference MyBtn for right
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for right (1):
+  - MyBtn
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for stop
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for stop (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference MyBtn for stop
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for stop (1):
+  - MyBtn
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for restart
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for restart (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Button for restart
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for restart (1):
+  - UnityEngine.UI.Button
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference UnityEngine.UI.Image for Image
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for Image (1):
+  - UnityEngine.UI.Image
+
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference Player for player
+[Debug][OPS.OBF][OnAnalyse_Component_Scenes] Found mono script reference in serialized properties for player (1):
+  - Player
+
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found 3 Prefabs.
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found 8 Components in the prefabs.
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Process component Analyse Unity Gui Component
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Process component Analyse MonoScript
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference UnityEngine.U2D.SpriteShapeController for Closed Sprite Shape
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference in serialized properties for Closed Sprite Shape (1):
+  - UnityEngine.U2D.SpriteShapeController
+
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference com.smallgamescompany.orientation.Orientation for Orientation
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference in serialized properties for Orientation (1):
+  - com.smallgamescompany.orientation.Orientation
+
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference UnityEngine.U2D.SpriteShapeController for Open Sprite Shape
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Found mono script reference in serialized properties for Open Sprite Shape (1):
+  - UnityEngine.U2D.SpriteShapeController
+
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Project
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Asset Cache
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Pipeline
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Pipeline Components
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload Obfuscator Settings
+[Debug][OPS.OBF][OnAnalyse_Component_Prefabs] Unload DataContainer
+[Info][OPS.OBF][OnAnalyse_Component_Prefabs] Finished PreBuild!
+[Info][OPS.OBF][Setup] Active Editor Platform: WindowsEditorPlatform
+[Info][OPS.OBF][Setup] Active Build Platform: DefaultBuildPlatform
+[Info][OPS.OBF][Setup] Start 'PostAssemblyBuild' process.
+[Info][OPS.OBF][Setup] Load
+[Debug][OPS.OBF][Setup] Load DataContainer
+[Debug][OPS.OBF][Setup] Load ObfuscatorSettings
+[Debug][OPS.OBF][Setup] Load Components
+[Debug][OPS.OBF][Setup] Found Components (26):
+  - Assembly - Settings (Manage obfuscateable assemblies and their dependencies.)
+  - Unity Animation Methods - Compatibility (Manages the obfuscation of inspector set animation methods.)
+  - Unity Gui Methods - Compatibility (Manages the obfuscation of inspector set gui methods.)
+  - String Reflection and Coroutine - Compatibility (Manage the obfuscation of members called through strings.)
+  - Logging - Settings (Manage here the obfuscation logging.)
+  - Namespace - Settings (Manage the obfuscation of namespaces and their class content.)
+  - Class - Obfuscation (Activate and manage the obfuscation of classes and their content.)
+  - Type Cache Replacement (Replaces the types and namespace in the assemblies cache.)
+  - MonoBehaviour - Class - Obfuscation (Manages the MonoBehaviour Subclass obfuscation.)
+  - MonoBehaviour - Class - Subtype Obfuscation (Manages the MonoBehaviour Subclass obfuscation.)
+  - ScriptableObject - Class - Obfuscation (Manages the ScriptableObject Subclass obfuscation.)
+  - Playable - Class - Obfuscation (Manages the Playable Subclass obfuscation.)
+  - Method - Obfuscation (Activate and manage the obfuscation of methods.)
+  - Parameter - Obfuscation (Manage the obfuscation of parameter.)
+  - Field - Obfuscation (Activate and manage the obfuscation of fields.)
+  - Property - Obfuscation (Activate and manage the obfuscation of properties.)
+  - Event - Obfuscation (Activate and manage the obfuscation of events.)
+  - Attribute - Settings (Manage here obfuscator attributes or custom attributes.)
+  - Renaming - Settings (Manage here the renaming settings.)
+  - Add Random Code (Activate to add random code to your classes.)
+  - Method ControlFlow (Obfuscate the methods control flow. (Beta, and requires .Net >= 5 or .Net Standard >= 2.1))
+  - String - Obfuscation (Activate the obfuscation of strings.)
+  - Suppress ILDasm (Add the SuppressIldasmAttribute to prevent ILDasm (Debugging) usage.)
+  - Tampering - Protection (Protection against assembly manipulation.  (Beta))
+  - Not Obfuscate Cause (Adds a do not obfuscate cause attribute to the members.)
+  - Remove Obfuscator Attributes (Removes OPS.Obfuscator.Attributes in the build.)
+
+[Debug][OPS.OBF][Setup] Found Compatibility Components (9):
+  - .Net Framework - Compatibility (Controls the Obfuscator compatibility to the .Net / Mono Framework.)
+  - Unity - Compatibility (Controls the Obfuscator compatibility to Unity.)
+  - Obfuscator - Compatibility (Controls the Obfuscator own components)
+  - Chartboost - Compatibility (Controls the Obfuscator compatibility to Chartboost.)
+  - Facebook - Compatibility (Controls the Obfuscator compatibility to Facebook Sdks.)
+  - Google - Compatibility (Controls the Obfuscator compatibility to Google Sdks.)
+  - JSON - Compatibility (Controls the Obfuscator compatibility to Json.)
+  - Photon - Compatibility (Controls the Obfuscator compatibility to Photon Sdks.)
+  - PlayMaker - Compatibility (Controls the Obfuscator compatibility to PlayMaker Sdks.)
+
+[Debug][OPS.OBF][Setup] Load Pipeline
+[Warning][OPS.OBF][Setup] There is no assembly: Assembly-CSharp-firstpass.dll
+[Debug][OPS.OBF][Setup] Found to obfuscate assemblies (1):
+  - D:\Projects\Ambulance Racer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+
+[Debug][OPS.OBF][Setup] Found helper assemblies (1):
+  - D:\Projects\Ambulance Racer\Temp\StagingArea\Data\Managed\OPS.Obfuscator.dll
+
+[Debug][OPS.OBF][Setup] Found dependency directories (24):
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\MonoBleedingEdge\lib\mono\unityjit
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\Managed\UnityEngine
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\Managed
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\PlaybackEngines\WebGLSupport
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\PlaybackEngines\AndroidPlayer
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\PlaybackEngines\WindowsStandaloneSupport
+  - C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor
+  - D:\Projects\Ambulance Racer\Library\ScriptAssemblies
+  - D:\Projects\Ambulance Racer\Library\PackageCache\com.unity.collab-proxy@1.7.1\Lib\Editor\PlasticSCM
+  - D:\Projects\Ambulance Racer\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime
+  - D:\Projects\Ambulance Racer\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom
+  - D:\Projects\Ambulance Racer\Assets\OPS\Plugins\Json
+  - D:\Projects\Ambulance Racer\Assets\OPS\Editor\Plugins\Mono.Cecil
+  - D:\Projects\Ambulance Racer\Assets\OPS\Obfuscator\Editor\Plugins
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\MonoBleedingEdge\lib\mono\unityjit\Facades
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\PlaybackEngines\AndroidPlayer\Variations\il2cpp\Managed
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\NetStandard\ref\2.0.0
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\NetStandard\compat\2.0.0\shims\netstandard
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\NetStandard\Extensions\2.0.0
+  - D:\UnityEditors\2020.3.15f2\Editor\Data\NetStandard\compat\2.0.0\shims\netfx
+  - Library\ScriptAssemblies
+  - D:\Projects\Ambulance Racer\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\AOT
+  - Assets\OPS\Plugins\Json
+  - D:\UnityEditors\2020.3.15f2\Editor\Managed
+
+[Debug][OPS.OBF][Setup] Load Assembly Resolver
+[Info][OPS.OBF][Setup] Prepare Assemblies
+[Info][OPS.OBF][Setup] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][Setup] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][Setup] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][Setup] Process component Namespace - Settings
+[Info][OPS.OBF][Setup] Process component Class - Obfuscation
+[Info][OPS.OBF][Setup] Process component Type Cache Replacement
+[Info][OPS.OBF][Setup] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][Setup] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][Setup] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][Setup] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][Setup] Process component Method - Obfuscation
+[Info][OPS.OBF][Setup] Process component Parameter - Obfuscation
+[Info][OPS.OBF][Setup] Process component Field - Obfuscation
+[Info][OPS.OBF][Setup] Process component Property - Obfuscation
+[Info][OPS.OBF][Setup] Process component Event - Obfuscation
+[Info][OPS.OBF][Setup] Process component Attribute - Settings
+[Info][OPS.OBF][Setup] Process component Add Random Code
+[Info][OPS.OBF][Setup] Process component Method ControlFlow
+[Info][OPS.OBF][Setup] Process component String - Obfuscation
+[Info][OPS.OBF][Setup] Process component Suppress ILDasm
+[Info][OPS.OBF][Setup] Process component Tampering - Protection
+[Info][OPS.OBF][Setup] Process component Not Obfuscate Cause
+[Info][OPS.OBF][Setup] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][Setup] Load Assemblies
+[Debug][OPS.OBF][Setup] Load Cache
+[Debug][OPS.OBF][Setup] Load RenameManager
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Animation Methods...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Gui Methods...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::StartGame()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::Pause()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::OpenShop()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::OpenLeaderboard()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::Back()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::SetPlayer(System.Int32)] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::Confirm()] Because the method might be a gui method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Strings in Methods...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Member names based on found Strings...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Collections.IEnumerator Manager::Timer()] Because the method might be a method called through reflection.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Type References in Module...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Background]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/Leaderboard_data]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/<>c]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/<Timer>d__68]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MyBtn/Type]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MyBtn]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Player]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] PlayerData]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Background] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Manager/Leaderboard_data] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Manager/<>c] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Manager/<Timer>d__68] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Manager] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] MyBtn/Type] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] MyBtn] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] Player] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] PlayerData] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Types Namespace [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Type References in Module...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Background]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/Leaderboard_data]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/<>c]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager/<Timer>d__68]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Manager]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MyBtn/Type]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] MyBtn]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] Player]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] PlayerData]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation]  Analyse Type References in Custom Attribute References...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Background] Because of compatibility component: Unity - Compatibility : The class or base class contains some serializeable fields and the 'Serialize Fields' settings is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Manager/Leaderboard_data] Because of compatibility component: .Net Framework - Compatibility : Because of the 'Do not obfuscate serializable classes' settings.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Manager/<>c] Because of compatibility component: .Net Framework - Compatibility : Because of the 'Do not obfuscate serializable classes' settings.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Manager] Because of compatibility component: Unity - Compatibility : The class or base class contains some serializeable fields and the 'Serialize Fields' settings is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] MyBtn] Because of compatibility component: Unity - Compatibility : The class or base class contains some serializeable fields and the 'Serialize Fields' settings is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Player] Because of compatibility component: Unity - Compatibility : The class or base class contains some serializeable fields and the 'Serialize Fields' settings is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Type Cache Replacement
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Background] MonoBehaviour obfuscation is deactivated - Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Manager] MonoBehaviour obfuscation is deactivated - Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] MyBtn] MonoBehaviour obfuscation is deactivated - Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Player] MonoBehaviour obfuscation is deactivated - Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation] MonoBehaviour obfuscation is deactivated - Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Background] Setting 'Obfuscate not obfuscatable in Unity assemblies' got deactivated!
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Manager] Setting 'Obfuscate not obfuscatable in Unity assemblies' got deactivated!
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] MyBtn] Setting 'Obfuscate not obfuscatable in Unity assemblies' got deactivated!
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] Player] Setting 'Obfuscate not obfuscatable in Unity assemblies' got deactivated!
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation] Setting 'Obfuscate not obfuscatable in Unity assemblies' got deactivated!
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Type [[Assembly-CSharp] PlayerData] Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.String PlayerData::playerName] Is in ScriptableObject and this ScriptableObject gets not obfuscated: Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Sprite PlayerData::playerSprite] Is in ScriptableObject and this ScriptableObject gets not obfuscated: Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Single PlayerData::maxSpeed] Is in ScriptableObject and this ScriptableObject gets not obfuscated: Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 PlayerData::acceleration] Is in ScriptableObject and this ScriptableObject gets not obfuscated: Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 PlayerData::handling] Is in ScriptableObject and this ScriptableObject gets not obfuscated: Obfuscator Free is used.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Method References in Modules...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Field References in Instructions...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Methods...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Background::Update()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Background::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager/Leaderboard_data::.ctor(System.Int32)] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager/<>c::.cctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager/<>c::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager/<Timer>d__68::.ctor(System.Int32)] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Boolean Manager/<Timer>d__68::MoveNext()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::Start()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::Update()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Manager::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::OnDisable()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::Update()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Player::OnCollisionEnter2D(UnityEngine.Collision2D)] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void Player::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void PlayerData::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void com.smallgamescompany.orientation.Orientation::OnEnable()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void com.smallgamescompany.orientation.Orientation::OnDisable()] Because of compatibility component: Unity - Compatibility : Is MonoBehaviour Method.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void com.smallgamescompany.orientation.Orientation::.ctor()] Because of compatibility component: .Net Framework - Compatibility : Is Special.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)] Method is in group that has external definition (is in some assembly that gets not obfuscated).
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::OnPointerEnter(UnityEngine.EventSystems.PointerEventData)] Some other Method in the Method group getting skipped.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::OnPointerExit(UnityEngine.EventSystems.PointerEventData)] Method is in group that has external definition (is in some assembly that gets not obfuscated).
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Method [[Assembly-CSharp] System.Void MyBtn::OnPointerExit(UnityEngine.EventSystems.PointerEventData)] Some other Method in the Method group getting skipped.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Parameter - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Field References in Modules...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Field References in Instructions...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Fields...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Single Background::speed] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Vector2 Background::dir] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Material Background::mat] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Collections.Generic.List`1<System.Int32> Manager/Leaderboard_data::result] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] Manager/<>c Manager/<>c::<>9] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Func`2<System.Int32,System.Int32> Manager/<>c::<>9__50_0] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Func`2<System.Int32,System.Int32> Manager/<>c::<>9__51_0] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Transform Manager::obstacles] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Transform Manager::road] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::timerText] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::scoresText] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.GameObject Manager::menu] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.GameObject Manager::game] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.GameObject Manager::results] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.GameObject Manager::shop] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.GameObject Manager::leaderboard] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Transform Manager::healthBar] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Sprite Manager::full] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Sprite Manager::empty] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::leadersText] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] Player Manager::player] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Image Manager::playerIcon] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::playerNameText] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::playerMaxSpeed] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::playerAcceleration] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Text Manager::playerHandling] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.UI.Image Manager::menuPlayerIcon] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] PlayerData[] Manager::playerDatas] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] Manager/Leaderboard_data Manager::leaderboard_Data] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 MyBtn/Type::value__] Because of compatibility component: .Net Framework - Compatibility : Is the enums value__.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 MyBtn/Type::value__] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 MyBtn/Type::value__] Because of the 'Obfuscate enum values' setting.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] MyBtn/Type MyBtn/Type::direction] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] MyBtn/Type MyBtn/Type::direction] Because of the 'Obfuscate enum values' setting.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] MyBtn/Type MyBtn/Type::stopping] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] MyBtn/Type MyBtn/Type::stopping] Because of the 'Obfuscate enum values' setting.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 MyBtn::dir] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] MyBtn/Type MyBtn::type] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Rigidbody2D Player::rigid] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.SpriteRenderer Player::myRend] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.AudioSource Player::source] Because of compatibility component: Unity - Compatibility : The field is serializable and the settings 'Obfuscate SerializeAble fields' got deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.String PlayerData::playerName] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.Sprite PlayerData::playerSprite] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Single PlayerData::maxSpeed] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 PlayerData::acceleration] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] System.Int32 PlayerData::handling] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Skip Field [[Assembly-CSharp] UnityEngine.ScreenOrientation com.smallgamescompany.orientation.Orientation::game] Because of compatibility component: Unity - Compatibility : The class is a Unity class (MonoBehaviour/...) and the setting 'Obfuscate Public unity fields' is deactivated.
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Properties...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Analyse Member...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find MemberReferences...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Find Member to skip...
+[Info][OPS.OBF][OnAnalyse_Assemblies] [Assembly-CSharp] Skip Events...
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Attribute - Settings
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Add Random Code
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Method ControlFlow
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component String - Obfuscation
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Suppress ILDasm
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Tampering - Protection
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Not Obfuscate Cause
+[Info][OPS.OBF][OnAnalyse_Assemblies] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Type Cache Replacement
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] [Assembly-CSharp] Skip Methods...
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Parameter - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] [Assembly-CSharp] Skip Properties...
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] [Assembly-CSharp] Skip Events...
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Attribute - Settings
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Add Random Code
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Method ControlFlow
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component String - Obfuscation
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Suppress ILDasm
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Tampering - Protection
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Not Obfuscate Cause
+[Info][OPS.OBF][OnPostAnalyse_Assemblies] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found a new Type Name [[Assembly-CSharp] Manager/<Timer>d__68] : a
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found a new Type Name [[Assembly-CSharp] MyBtn/Type] : b
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Int32 Manager/<>c::<LoadResults>b__50_0(System.Int32)] : c
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Int32 Manager/<>c::<SaveResult>b__51_0(System.Int32)] : d
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager/<Timer>d__68::System.IDisposable.Dispose()] : e
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.Generic.IEnumerator<System.Object>.get_Current()] : f
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager/<Timer>d__68::System.Collections.IEnumerator.Reset()] : g
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.IEnumerator.get_Current()] : h
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] Manager Manager::get_Instance()] : i
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::ResetObstacles()] : j
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::ResetRoad()] : k
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::LoadResults()] : l
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::SaveResult()] : m
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Single Manager::GetRandY()] : n
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::UpdateObstaclePositions()] : o
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::UpdateRoadPositions()] : p
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] UnityEngine.Vector3 Manager::GetLastObstacleSetPos()] : q
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] UnityEngine.Vector3 Manager::GetLastRoadPos()] : r
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::UpdateScore()] : s
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::MovePlayer(System.Int32)] : t
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::Stopping(System.Boolean)] : u
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Manager::TakeDamage()] : v
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Player::SetAlive(System.Boolean)] : w
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Player::SetSprite(UnityEngine.Sprite)] : x
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void Player::Move(System.Single)] : y
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Method Name [[Assembly-CSharp] System.Void com.smallgamescompany.orientation.Orientation::SceneManager_sceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)] : z
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager/<Timer>d__68::<>1__state] : ba
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::<>2__current] : bb
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] Manager Manager/<Timer>d__68::<>4__this] : bc
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager/<Timer>d__68::<i>5__2] : bd
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] Manager Manager::instance] : be
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::scores] : bf
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager::idPlayer] : bg
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager::healthCount] : bh
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Boolean Manager::gameStarted] : bi
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Boolean Manager::IsPause] : bj
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::currentSpeed] : bk
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::targetSpeed] : bl
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::velocity] : bm
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::currentRoadSpeed] : bn
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::targetRoadSpeed] : bo
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::roadVelocity] : bp
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager::maxLines] : bq
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::xSpeedMultiplayer] : br
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::initOffsetY] : bs
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::obstacleOffsetY] : bt
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::roadOffsetY] : bu
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::speedMultiplayer] : bv
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Single Manager::stopSmoothTime] : bw
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.String Manager::savekey] : bx
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager::maxAcceleration] : by
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Int32 Manager::maxHandling] : bz
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] System.Boolean MyBtn::IsPressing] : ca
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Field Name [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation com.smallgamescompany.orientation.Orientation::instance] : cb
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found group Property Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.Generic.IEnumerator<System.Object>.Current()] : 
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Property Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.Generic.IEnumerator<System.Object>.Current()] : cc
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found group Property Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.IEnumerator.Current()] : 
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Property Name [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.IEnumerator.Current()] : cd
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Found new Property Name [[Assembly-CSharp] Manager Manager::Instance()] : ce
+[Info][OPS.OBF][OnFindMemberNames_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Update Reference Type [[Assembly-CSharp] Manager/<Timer>d__68]
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Type [[Assembly-CSharp] Manager/<Timer>d__68] to a
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Type [[Assembly-CSharp] MyBtn/Type] to b
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Type Cache Replacement
+[Info][OPS.OBF][OnObfuscate_Assemblies] [Assembly-CSharp] Replace Type Namespace and Name Cache...
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Int32 Manager/<>c::<LoadResults>b__50_0(System.Int32)] to c
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Int32 Manager/<>c::<SaveResult>b__51_0(System.Int32)] to d
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager/<Timer>d__68::System.IDisposable.Dispose()] to e
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.Generic.IEnumerator<System.Object>.get_Current()] to f
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager/<Timer>d__68::System.Collections.IEnumerator.Reset()] to g
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.IEnumerator.get_Current()] to h
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] Manager Manager::get_Instance()] to i
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::ResetObstacles()] to j
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::ResetRoad()] to k
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::LoadResults()] to l
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::SaveResult()] to m
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Single Manager::GetRandY()] to n
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::UpdateObstaclePositions()] to o
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::UpdateRoadPositions()] to p
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] UnityEngine.Vector3 Manager::GetLastObstacleSetPos()] to q
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] UnityEngine.Vector3 Manager::GetLastRoadPos()] to r
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::UpdateScore()] to s
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::MovePlayer(System.Int32)] to t
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::Stopping(System.Boolean)] to u
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Manager::TakeDamage()] to v
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Player::SetAlive(System.Boolean)] to w
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Player::SetSprite(UnityEngine.Sprite)] to x
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void Player::Move(System.Single)] to y
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Method [[Assembly-CSharp] System.Void com.smallgamescompany.orientation.Orientation::SceneManager_sceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)] to z
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Parameter - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] [Assembly-CSharp] Obfuscating Parameter...
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager/<Timer>d__68::<>1__state] to ba
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Object Manager/<Timer>d__68::<>2__current] to bb
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] Manager Manager/<Timer>d__68::<>4__this] to bc
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager/<Timer>d__68::<i>5__2] to bd
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] Manager Manager::instance] to be
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::scores] to bf
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager::idPlayer] to bg
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager::healthCount] to bh
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Boolean Manager::gameStarted] to bi
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Boolean Manager::IsPause] to bj
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::currentSpeed] to bk
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::targetSpeed] to bl
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::velocity] to bm
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::currentRoadSpeed] to bn
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::targetRoadSpeed] to bo
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::roadVelocity] to bp
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager::maxLines] to bq
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::xSpeedMultiplayer] to br
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::initOffsetY] to bs
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::obstacleOffsetY] to bt
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::roadOffsetY] to bu
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::speedMultiplayer] to bv
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Single Manager::stopSmoothTime] to bw
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.String Manager::savekey] to bx
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager::maxAcceleration] to by
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Int32 Manager::maxHandling] to bz
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] System.Boolean MyBtn::IsPressing] to ca
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Field [[Assembly-CSharp] com.smallgamescompany.orientation.Orientation com.smallgamescompany.orientation.Orientation::instance] to cb
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Property [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.Generic.IEnumerator<System.Object>.Current()] to cc
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Property [[Assembly-CSharp] System.Object Manager/<Timer>d__68::System.Collections.IEnumerator.Current()] to cd
+[Info][OPS.OBF][OnObfuscate_Assemblies] Rename Property [[Assembly-CSharp] Manager Manager::Instance()] to ce
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Attribute - Settings
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Add Random Code
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Method ControlFlow
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component String - Obfuscation
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Suppress ILDasm
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Tampering - Protection
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Not Obfuscate Cause
+[Info][OPS.OBF][OnObfuscate_Assemblies] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Type Cache Replacement
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Parameter - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Attribute - Settings
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Add Random Code
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Method ControlFlow
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component String - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Suppress ILDasm
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Tampering - Protection
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Not Obfuscate Cause
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] [Assembly-CSharp] Skip add not obfuscated cause ...
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] [Assembly-CSharp] Remove obfuscator attributes ...
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] [Assembly-CSharp] Remove obfuscator reference ...
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Save Assemblies
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Saving assembly: D:\Projects\Ambulance Racer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Post process Assemblies
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Unity Animation Methods - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Unity Gui Methods - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component String Reflection and Coroutine - Compatibility
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Namespace - Settings
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Type Cache Replacement
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component MonoBehaviour - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component MonoBehaviour - Class - Subtype Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component ScriptableObject - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Playable - Class - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Method - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Parameter - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Field - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Property - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Event - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Attribute - Settings
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Add Random Code
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Method ControlFlow
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component String - Obfuscation
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Suppress ILDasm
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Tampering - Protection
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Not Obfuscate Cause
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Process component Remove Obfuscator Attributes
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Unload
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload RenameManager
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload Cache
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload Assemblies
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Unloaded assembly successfully: D:\Projects\Ambulance Racer\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Unloaded assembly successfully: D:\Projects\Ambulance Racer\Temp\StagingArea\Data\Managed\OPS.Obfuscator.dll
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload Assembly Resolver
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Unloaded successfully the AssemblyResolver.
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload Pipeline
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload Components
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload ObfuscatorSettings
+[Debug][OPS.OBF][OnPostObfuscate_Assemblies] Unload DataContainer
+[Info][OPS.OBF][OnPostObfuscate_Assemblies] Finished PostAssemblyBuild!
+[Info][OPS.OBF][Setup] Active Editor Platform: WindowsEditorPlatform
+[Info][OPS.OBF][Setup] Active Build Platform: DefaultBuildPlatform
+[Info][OPS.OBF][Setup] Start 'PostAssetsBuild' process.
+[Info][OPS.OBF][Setup] Load Project
+[Debug][OPS.OBF][Setup] Load DataContainer
+[Debug][OPS.OBF][Setup] Load Obfuscator Settings
+[Debug][OPS.OBF][Setup] Load Pipeline Components
+[Debug][OPS.OBF][Setup] Found Components (1):
+  - Post Process Unity MonoBehaviour Assets (Post Process Unity MonoBehaviour Assets)
+
+[Debug][OPS.OBF][Setup] Load Pipeline
+[Info][OPS.OBF][OnPostAssetsBuild] Process component Post Process Unity MonoBehaviour Assets
+[Info][OPS.OBF][OnPostAssetsBuild] Unload Project
+[Debug][OPS.OBF][OnPostAssetsBuild] Unload Pipeline
+[Debug][OPS.OBF][OnPostAssetsBuild] Unload Pipeline Components
+[Debug][OPS.OBF][OnPostAssetsBuild] Unload Obfuscator Settings
+[Debug][OPS.OBF][OnPostAssetsBuild] Unload DataContainer
+[Info][OPS.OBF][OnPostAssetsBuild] Finished PostAssetsBuild!
+[Info][OPS.OBF][Setup] Active Editor Platform: WindowsEditorPlatform
+[Info][OPS.OBF][Setup] Active Build Platform: DefaultBuildPlatform
+[Info][OPS.OBF][Setup] Start 'PostBuild' process.
+[Info][OPS.OBF][Setup] Load Project
+[Debug][OPS.OBF][Setup] Load DataContainer
+[Debug][OPS.OBF][Setup] Load Obfuscator Settings
+[Debug][OPS.OBF][Setup] Load Pipeline Components
+[Debug][OPS.OBF][Setup] Found Components (1):
+  - Post Process Unity MonoBehaviour Assets (Post Process Unity MonoBehaviour Assets)
+
+[Debug][OPS.OBF][Setup] Load Pipeline
+[Info][OPS.OBF][OnPostBuild] Process component Post Process Unity MonoBehaviour Assets
+[Info][OPS.OBF][OnPostBuild] Unload Project
+[Debug][OPS.OBF][OnPostBuild] Unload Pipeline
+[Debug][OPS.OBF][OnPostBuild] Unload Pipeline Components
+[Debug][OPS.OBF][OnPostBuild] Unload Obfuscator Settings
+[Debug][OPS.OBF][OnPostBuild] Unload DataContainer
+[Info][OPS.OBF][OnPostBuild] Finished PostBuild!
