@@ -9,6 +9,27 @@ env:
 
 jobs:
 
+  sendTelegramNotify:
+     needs: [Deploy_APK, Deploy_AAB]
+     name: Send Telegram Notify
+     runs-on: ubuntu-latest
+     steps:
+     
+          - name: Checkout code
+            uses: actions/checkout@v2
+     
+          - uses: actions/download-artifact@v2
+            with:
+              name: build-Android
+              path: ${{ github.workspace }}/build/Android
+
+          - name: send telegram message
+            uses: appleboy/telegram-action@master
+            with:
+              to: ${{ secrets.TELEGRAM_ID }}
+              token: ${{ secrets.TELEGRAM_TOKEN }}
+              message: Файлы загружены на диск (${{ secrets.APP_NAME }})
+
   buildAndroidAPK:
     name: Build for Android(APK)
     runs-on: ubuntu-latest
