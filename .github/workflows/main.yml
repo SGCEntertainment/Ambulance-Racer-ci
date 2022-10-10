@@ -1,34 +1,67 @@
-name: Build project
+name: Build
 
-on: [push, pull_request, workflow_dispatch]
+on: [workflow_dispatch]
 
 env:
-  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-  UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+  UNITY_LICENSE: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><root>\n    <License id=\"Terms\">\n        <MachineBindings>\n            <Binding Key=\"1\" Value=\"576562626572264761624c65526f7578\"/>\n            <Binding Key=\"2\" Value=\"576562626572264761624c65526f7578\"/>\n        </MachineBindings>\n        <MachineID Value=\"D7nTUnjNAmtsUMcnoyrqkgIbYdM=\"/>\n        <SerialHash Value=\"1efd68fa935192b6090ac03c77d289a9f588c55a\"/>\n        <Features>\n            <Feature Value=\"33\"/>\n            <Feature Value=\"1\"/>\n            <Feature Value=\"12\"/>\n            <Feature Value=\"2\"/>\n            <Feature Value=\"24\"/>\n            <Feature Value=\"3\"/>\n            <Feature Value=\"36\"/>\n            <Feature Value=\"17\"/>\n            <Feature Value=\"19\"/>\n            <Feature Value=\"62\"/>\n        </Features>\n        <DeveloperData Value=\"AQAAAEY0LUg2WFMtUE00NS1SM0M4LUUyWlotWkdWOA==\"/>\n        <SerialMasked Value=\"F4-H6XS-PM45-R3C8-E2ZZ-XXXX\"/>\n        <StartDate Value=\"2018-05-02T00:00:00\"/>\n        <UpdateDate Value=\"2021-05-21T20:48:24\"/>\n        <InitialActivationDate Value=\"2018-05-02T14:21:28\"/>\n        <LicenseVersion Value=\"6.x\"/>\n        <ClientProvidedVersion Value=\"2019.2.11f1\"/>\n        <AlwaysOnline Value=\"false\"/>\n        <Entitlements>\n            <Entitlement Ns=\"unity_editor\" Tag=\"UnityPersonal\" Type=\"EDITOR\" ValidTo=\"9999-12-31T00:00:00\"/>\n            <Entitlement Ns=\"unity_editor\" Tag=\"DarkSkin\" Type=\"EDITOR_FEATURE\" ValidTo=\"9999-12-31T00:00:00\"/>\n        </Entitlements>\n    </License>\n<Signature xmlns=\"http://www.w3.org/2000/09/xmldsig#\"><SignedInfo><CanonicalizationMethod Algorithm=\"http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments\"/><SignatureMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#rsa-sha1\"/><Reference URI=\"#Terms\"><Transforms><Transform Algorithm=\"http://www.w3.org/2000/09/xmldsig#enveloped-signature\"/></Transforms><DigestMethod Algorithm=\"http://www.w3.org/2000/09/xmldsig#sha1\"/><DigestValue>Ui8I607il6gWRH3o8x/HMV7eva8=</DigestValue></Reference></SignedInfo><SignatureValue>bW/8QoV0skYzBUtBvMCxZsQa1kjdBw1cumQZeaSuF9FjpHzp3blFEBTtvvOOB7C0j/19qtdV/QMq\nXkMQj2qQ99rYQPXSrPKySQrdm/6riYd2VPhOMc4QSsbV/OphYOMYkYju1tsvY4ZDi6TDFuT7C1OR\nwiCtmvbUs9Lw/u3jMGjWd/cqZAkupulnXpGz8ltI2GA3RWwpFH+rxEOJWlpqYIfioKntlHv8dbAx\n5fONrmMH2yMJQaS3YOW2noZkoMCgMlsuXE6ddqKz0soWbYXqXEQcNHY4JWcDr97ISdeI3fDP1/XR\nz0bzpLWTGR4lPxuREKW7jqnk/NwoVUXx+anUKg==</SignatureValue></Signature></root>"
+  UNITY_EMAIL: "unitydatastorage@gmail.com"
+  UNITY_PASSWORD: "qwerty12345Q"
+  APP_NAME: "Winline"
 
 jobs:
 
-  sendTelegramNotify:
-     needs: [Deploy_APK, Deploy_AAB]
-     name: Send Telegram Notify
-     runs-on: ubuntu-latest
-     steps:
-     
-          - name: Checkout code
-            uses: actions/checkout@v2
-     
-          - uses: actions/download-artifact@v2
-            with:
-              name: build-Android
-              path: ${{ github.workspace }}/build/Android
-
-          - name: send telegram message
-            uses: appleboy/telegram-action@master
-            with:
-              to: ${{ secrets.TELEGRAM_ID }}
-              token: ${{ secrets.TELEGRAM_TOKEN }}
-              message: Файлы загружены на диск (${{ secrets.APP_NAME }})
+  Archiving:
+    runs-on: ubuntu-latest
+    needs: [buildAndroidAPK, buildAndroidAAB]
+    steps:
+    
+      - uses: actions/checkout@v2
+      
+      - uses: actions/download-artifact@v2
+        with:
+             name: build-Android
+             path: ${{ github.workspace }}/build/Android
+             
+      - uses: vimtor/action-zip@v1
+        with:
+            files: build/Android
+            dest: project_folder/${{ env.APP_NAME }}.zip
+            
+      - uses: geekyeggo/delete-artifact@v1
+        with:
+            name: build-Android
+                
+      - uses: actions/upload-artifact@v1
+        with:
+           name: ${{ env.APP_NAME }}
+           path: ${{ github.workspace }}/project_folder/${{ env.APP_NAME }}.zip
+           
+  SendTelegramNotify:
+    runs-on: ubuntu-latest
+    needs: Archiving
+    name: Send Telegram Notify
+    
+    steps: 
+      - uses: actions/checkout@v2
+      
+      - uses: actions/download-artifact@v2
+        id: download
+        with:
+            name: ${{ env.APP_NAME }}
+            path: ${{ github.workspace }}/project_folder
+            
+      - name: send telegram message
+        uses: appleboy/telegram-action@master
+        with:
+              to: "-1001730907007"
+              token: "5541471253:AAFGq-cwlYERC9nSYc68_94bWOH0Fx1KkVU"
+              message: " "
+              document: '${{ github.workspace }}/project_folder/${{ env.APP_NAME }}.zip'
+              
+      - uses: geekyeggo/delete-artifact@v1
+        with:
+            name: ${{ env.APP_NAME }}
+      
 
   buildAndroidAPK:
     name: Build for Android(APK)
@@ -39,6 +72,7 @@ jobs:
         targetPlatform:
           - Android
     steps:
+    
       - name: Checkout
         uses: actions/checkout@v2.4.2
           
@@ -52,10 +86,10 @@ jobs:
         with:
           androidAppBundle: false
           androidKeystoreName: user.keystore
-          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
-          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
-          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          androidKeystoreBase64: "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"
+          androidKeystorePass: "qwerty12345Q"
+          androidKeyaliasName: "qwerty12345q"
+          androidKeyaliasPass: "qwerty12345Q"
           targetPlatform: ${{ matrix.targetPlatform }}
           
       - uses: actions/upload-artifact@v2
@@ -85,59 +119,13 @@ jobs:
         with:
           androidAppBundle: true
           androidKeystoreName: user.keystore
-          androidKeystoreBase64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          androidKeystorePass: ${{ secrets.ANDROID_KEYSTORE_PASS }}
-          androidKeyaliasName: ${{ secrets.ANDROID_KEYALIAS_NAME }}
-          androidKeyaliasPass: ${{ secrets.ANDROID_KEYALIAS_PASS }}
+          androidKeystoreBase64: "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"
+          androidKeystorePass: "qwerty12345Q"
+          androidKeyaliasName: "qwerty12345q"
+          androidKeyaliasPass: "qwerty12345Q"
           targetPlatform: ${{ matrix.targetPlatform }}
           
       - uses: actions/upload-artifact@v2
         with:
           name: build-Android
           path: build/Android
-
-  Deploy_APK:
-      needs: buildAndroidAPK
-      name: Deploy to Google Drive(APK)
-      runs-on: ubuntu-latest
-      steps:
-    
-      - name: Checkout code
-        uses: actions/checkout@v2
-        
-      - uses: actions/download-artifact@v2
-        with:
-          name: build-Android
-          path: build/Android
-
-      - name: Upload to google drive
-        uses: adityak74/google-drive-upload-git-action@v0.2
-        with:
-          credentials: ${{ secrets.credentials }}
-          filename: "build/Android/Android.apk"
-          folderId: ${{ secrets.folderId }}
-          name: "Ambulance Racer.apk"
-          overwrite: "true" # optional boolean
-          
-  Deploy_AAB:
-      needs: buildAndroidAAB
-      name: Deploy to Google Drive(AAB)
-      runs-on: ubuntu-latest
-      steps:
-    
-      - name: Checkout code
-        uses: actions/checkout@v2
-        
-      - uses: actions/download-artifact@v2
-        with:
-          name: build-Android
-          path: build/Android
-
-      - name: Upload to google drive
-        uses: adityak74/google-drive-upload-git-action@v0.2
-        with:
-          credentials: ${{ secrets.credentials }}
-          filename: "build/Android/Android.aab"
-          folderId: ${{ secrets.folderId }}
-          name: "Ambulance Racer.aab"
-          overwrite: "true" # optional boolean
